@@ -54,7 +54,7 @@ library(ggplot2)
 ggplot(ap_df, aes(x = year, y = passengers)) +
   geom_line(color = 'darkgreen', linewidth = 0.5) +
   geom_point(color = 'red', size = 0.5) +
-  geom_smooth(se = FALSE, color = 'orange') +
+  geom_smooth(se = FALSE, color = 'pink') +
   labs(
     title = 'Trend Analysis of Air Passengers',
     subtitle = 'From 1949–1960',
